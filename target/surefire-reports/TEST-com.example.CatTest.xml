@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CatTest" time="1.74" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CatTest" time="1.636" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\John_Smith\AppData\Local\Temp\surefire8396585559907569059\surefirebooter-20260107185616301_3.jar C:\Users\John_Smith\AppData\Local\Temp\surefire8396585559907569059 2026-01-07T18-56-16_103-jvmRun1 surefire-20260107185616301_1tmp surefire_0-20260107185616301_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\John_Smith\AppData\Local\Temp\surefire11142677512053069123\surefirebooter-20260107191213147_3.jar C:\Users\John_Smith\AppData\Local\Temp\surefire11142677512053069123 2026-01-07T19-12-12_952-jvmRun1 surefire-20260107191213147_1tmp surefire_0-20260107191213147_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\AQA\qa_java\target\test-classes;E:\AQA\qa_java\target\classes;C:\Users\John_Smith\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\John_Smith\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\John_Smith\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\John_Smith\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\John_Smith\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\John_Smith\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\John_Smith\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\John_Smith\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\John_Smith\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\John_Smith\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\John_Smith\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\John_Smith\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\John_Smith\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\John_Smith\AppData\Local\Temp\surefire8396585559907569059\surefirebooter-20260107185616301_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\John_Smith\AppData\Local\Temp\surefire11142677512053069123\surefirebooter-20260107191213147_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+9-LTS"/>
@@ -65,7 +65,7 @@
     <property name="maven.repo.local" value="C:\Users\John_Smith\.m2\repository"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getSoundReturnsMeowTest" classname="com.example.CatTest" time="1.621"/>
-  <testcase name="getFoodPropagatesExceptionTest" classname="com.example.CatTest" time="0.098"/>
-  <testcase name="getFoodCallsEatMeatOnFelineTest" classname="com.example.CatTest" time="0.015"/>
+  <testcase name="getSoundReturnsMeowTest" classname="com.example.CatTest" time="1.525"/>
+  <testcase name="getFoodPropagatesExceptionTest" classname="com.example.CatTest" time="0.088"/>
+  <testcase name="getFoodCallsEatMeatOnFelineTest" classname="com.example.CatTest" time="0.014"/>
 </testsuite>
