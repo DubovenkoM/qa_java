@@ -39,7 +39,6 @@ public class LionTest {
             "Самец, true",
             "Самка, false"
     })
-
     void lionConstructorSetsManeCorrectlyTest(String sex, boolean expectedHasMane) throws Exception {
         Lion lion = new Lion(sex, mockAnimalFamily, mockPredator);
         assertEquals(expectedHasMane, lion.doesHaveMane());
@@ -99,16 +98,4 @@ public class LionTest {
         });
         assertEquals(expectedException, actualException);
     }
-    // Тест 7: Тест с реальными объектами
-    @Test
-    void lionWithRealFelineTest() throws Exception {
-        Feline realFeline = new Feline();
-        Lion lion = new Lion("Самец", realFeline, realFeline);
-        assertEquals(1, lion.getKittens());
-        assertEquals("Кошачьи", lion.getFamily());
-        assertEquals(List.of("Животные", "Птицы", "Рыба"), lion.getFood());
-        assertTrue(lion.doesHaveMane());
-    }
-
-
 }

@@ -38,6 +38,7 @@ public class AnimalTest {
     @Test
     void getFamilyReturnsGenericMessageTest() {
         String family = animal.getFamily();
-        assertTrue(family.contains("несколько семейств"));
+        String expected = "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
+        assertEquals(expected, family);
     }
 }
